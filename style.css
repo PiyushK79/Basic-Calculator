@@ -1,0 +1,64 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    background:rgb(248, 242, 234);
+}
+h1{
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: bolder;
+    text-decoration:underline;
+}
+h4{
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    font-style: italic;
+}
+
+/* .mx-auto{
+    margin: auto;
+} */
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-col{
+    flex-direction: column;
+}
+.row{
+    margin:8px 2px;
+}
+.button{
+    width: 66px;
+    padding: 20px;
+    margin: 0 3px;
+    border: 0px solid black;
+    border-radius:9px;
+    box-shadow: 1px 1px 6px gray;
+    cursor: pointer;
+    background-color: rgb(255, 218, 173);
+    font-size: 20px;
+    font-weight: bold;
+}
+.button:hover{
+    background-color:  rgb(250, 194, 126);
+}
+#equals{
+    border-radius: 50%;
+    background-color: rgb(253, 179, 95);
+}
+.row .input{
+    width: 291px;
+    font-size: 30px;
+    margin: 0;
+    padding: 25px 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 2px 6px gray;
+    text-align: right;
+
+}
